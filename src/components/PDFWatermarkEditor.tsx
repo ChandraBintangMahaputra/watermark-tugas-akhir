@@ -192,7 +192,7 @@ const PDFWatermarkEditor: React.FC = () => {
   return (
     <div className="watermark-editor">      <div className="controls">
         <div className="upload-section">
-          <h3>Upload File PDF</h3>
+          <h3>Upload File PDF (A4 gess)</h3>
           <div 
             className={`upload-zone ${dragActive === 'pdf' ? 'drag-active' : ''}`}
             onDragEnter={(e) => handleDragEnter(e, 'pdf')}
